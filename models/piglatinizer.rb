@@ -8,6 +8,8 @@ class PigLatinizer
         letter_count += 1
       end
       if letter_count == 0
+        
+      end
 
     end
   end
