@@ -3,7 +3,7 @@ class PigLatinizer
     pig_latinized_string = ""
     words = text.split(" ")
     words.each_with_index do |word, i|
-      if i != words.length
+      if i + 1 != words.length
         letter_count = 0
         while !word[letter_count].match(/[aeiouAEIOU]/) || word.length == letter_count
           letter_count += 1
