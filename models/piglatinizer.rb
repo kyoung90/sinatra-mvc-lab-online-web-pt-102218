@@ -14,7 +14,7 @@ class PigLatinizer
         pig_latinized_string += word[letter_count..word.length] + word[0..letter_count-1] + "ay "
         end
       end
-      elsif i == words.length
+    else 
         letter_count = 0
         while !word[letter_count].match(/[aeiouAEIOU]/) || word.length == letter_count
           letter_count += 1
