@@ -7,7 +7,7 @@ class PigLatinizer
       while !word[letter_count].match(/[aeiouAEIOU]/) || word.length == letter_count
         letter_count += 1
       end
-      
+
     end
   end
 end
