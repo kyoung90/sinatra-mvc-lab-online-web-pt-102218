@@ -8,7 +8,7 @@ class PigLatinizer
         letter_count += 1
       end
       if letter_count == 0
-        
+        pig_latinized_string += word + " way"
       end
 
     end
