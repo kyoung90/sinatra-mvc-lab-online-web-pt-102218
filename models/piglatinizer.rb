@@ -8,10 +8,10 @@ class PigLatinizer
         letter_count += 1
       end
       if letter_count == 0
-        pig_latinized_string += word + " way"
+        pig_latinized_string += word + "way"
       end
     else
-      word[letter_count..word.length]
+      word[letter_count..word.length] + word[0..letter_count] + ""
     end
   end
 end
